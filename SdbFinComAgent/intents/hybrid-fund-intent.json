@@ -1,0 +1,60 @@
+{
+  "id": "1d283adf-9563-4c5a-87c8-47d2552795c8",
+  "name": "hybrid-fund-intent",
+  "auto": true,
+  "contexts": [
+    "fund-selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "hybrid-fund",
+      "affectedContexts": [
+        {
+          "name": "post-fund-selection",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "38087c00-faa3-49c0-9509-bb7faf92f613",
+          "name": "optionnumber",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "invokeHybridFundIntentEvent"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

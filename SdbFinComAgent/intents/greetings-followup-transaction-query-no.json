@@ -1,0 +1,50 @@
+{
+  "id": "af427e6e-2606-4084-9e09-acff5441a648",
+  "parentId": "c6dfcac6-813e-46e1-9db3-4bc8fa5c096a",
+  "rootParentId": "c6dfcac6-813e-46e1-9db3-4bc8fa5c096a",
+  "name": "greetings-followup-transaction-query-no",
+  "auto": true,
+  "contexts": [
+    "greetings-followup-transaction-query-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetings-followup-transaction-query.greetings-followup-transaction-query-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for choosing our services"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

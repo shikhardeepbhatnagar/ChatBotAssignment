@@ -1,0 +1,16 @@
+[
+  {
+    "value": "True",
+    "synonyms": [
+      "True",
+      "Yes"
+    ]
+  },
+  {
+    "value": "False",
+    "synonyms": [
+      "False",
+      "No"
+    ]
+  }
+]

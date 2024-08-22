@@ -1,0 +1,68 @@
+{
+  "id": "7e60556e-0f48-42a4-a036-2b0cd8d92271",
+  "name": "sdbfincom-greetings",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetings-action",
+      "affectedContexts": [
+        {
+          "name": "greetings",
+          "lifespan": 5
+        },
+        {
+          "name": "main-menu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Hi, Welcome to SdbFinCom mutual fund services. You can ask about following:",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Portfolio Valuation",
+                      "callback_data": "Portfolio valuation"
+                    },
+                    {
+                      "text": "Fund Explorer",
+                      "callback_data": "Fund explorer"
+                    },
+                    {
+                      "text": "Transaction History",
+                      "callback_data": "Transaction history"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

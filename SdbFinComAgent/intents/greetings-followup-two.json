@@ -1,0 +1,92 @@
+{
+  "id": "6272c4a2-2028-49d1-94a7-6112dc6983bd",
+  "name": "greetings-followup-two",
+  "auto": true,
+  "contexts": [
+    "greetings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "fund-selection",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "86093dd3-1b48-4f63-93e5-2ae17ebdfc46",
+          "name": "greeting-menu-two",
+          "required": false,
+          "dataType": "@greeting-menu-two",
+          "value": "$greeting-menu-two",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Here are fund categories, you can select to view",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Equity",
+                      "callback_data": "Equity"
+                    },
+                    {
+                      "text": "Debt",
+                      "callback_data": "Debt"
+                    },
+                    {
+                      "text": "Hybrid",
+                      "callback_data": "Hybrid"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "fundExplorerEvent"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

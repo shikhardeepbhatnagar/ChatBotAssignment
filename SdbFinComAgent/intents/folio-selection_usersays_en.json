@@ -1,0 +1,41 @@
+[
+  {
+    "id": "0357c443-05f4-486d-9b7f-29e8264d5b31",
+    "data": [
+      {
+        "text": "PAN_122",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ec13348-b40e-46ca-acc0-e106f6220ce3",
+    "data": [
+      {
+        "text": "PAN_1234",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d2dab07-e3fe-4d35-8d22-584d5829634f",
+    "data": [
+      {
+        "text": "PAN_3456",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

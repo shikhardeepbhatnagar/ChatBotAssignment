@@ -1,0 +1,9 @@
+{
+  "id": "b493a737-6abe-4cdc-b4b6-7cf9b1190ee2",
+  "name": "greeting-menu-two",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

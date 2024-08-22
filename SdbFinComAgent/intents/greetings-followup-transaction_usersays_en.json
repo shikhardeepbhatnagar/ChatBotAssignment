@@ -1,0 +1,55 @@
+[
+  {
+    "id": "7e668c54-5d11-4d2b-b9bf-ee849c71a7a5",
+    "data": [
+      {
+        "text": "I choose ",
+        "userDefined": false
+      },
+      {
+        "text": "transaction history",
+        "meta": "@greeting-menu",
+        "alias": "greeting-menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dffeff53-c45f-43d2-8f86-ed705380fb17",
+    "data": [
+      {
+        "text": "Transaction History",
+        "meta": "@greeting-menu",
+        "alias": "greeting-menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "626ee728-c3f0-49e7-9888-c96235aa94a9",
+    "data": [
+      {
+        "text": "I want to know about my ",
+        "userDefined": false
+      },
+      {
+        "text": "transaction history",
+        "meta": "@greeting-menu",
+        "alias": "greeting-menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "8170fcf9-3d7f-4839-bab3-81e72e79caa3",
+    "data": [
+      {
+        "text": "I will go with debt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "27ec4ee2-bc81-4d2d-871d-17417ef5390e",
+    "data": [
+      {
+        "text": "I choose debt ",
+        "userDefined": false
+      },
+      {
+        "text": "fund",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1535dcf2-0810-4176-97ed-ff2de287657f",
+    "data": [
+      {
+        "text": "Debt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

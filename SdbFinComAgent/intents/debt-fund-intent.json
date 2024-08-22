@@ -1,0 +1,60 @@
+{
+  "id": "4033c432-edc4-43dd-8fac-2f2edd803ca8",
+  "name": "debt-fund-intent",
+  "auto": true,
+  "contexts": [
+    "fund-selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "debt-fund",
+      "affectedContexts": [
+        {
+          "name": "post-fund-selection",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "62f71c17-2b2e-4be1-9328-f16d08c96207",
+          "name": "optionnumber",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "invokeDebtFundIntentEvent"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

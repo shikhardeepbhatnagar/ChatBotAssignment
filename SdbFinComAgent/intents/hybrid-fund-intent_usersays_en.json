@@ -1,0 +1,41 @@
+[
+  {
+    "id": "a6a44451-3fed-444a-8261-7a1e53d4741f",
+    "data": [
+      {
+        "text": "I choose hybrid fund",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "298c8e07-3530-4bd0-8fd0-a0aadea4dc58",
+    "data": [
+      {
+        "text": "I will go with hybrid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b576ee2e-2e42-4a06-a3c7-ed43285e946b",
+    "data": [
+      {
+        "text": "Hybrid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "86af35f9-a360-4bb6-b709-f8e2ec1c08d2",
+  "name": "greetings-followup-portfolio",
+  "auto": true,
+  "contexts": [
+    "greetings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetings-followup-one-action",
+      "affectedContexts": [
+        {
+          "name": "main-menu",
+          "lifespan": 5
+        },
+        {
+          "name": "folio-selected-context",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "56b5e4a3-b8af-4811-8a61-851a1cd80111",
+          "name": "phonenumber",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your registered mobile number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

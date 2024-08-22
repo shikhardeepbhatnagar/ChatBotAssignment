@@ -1,0 +1,9 @@
+{
+  "id": "a910e064-696f-4f07-90fa-af5ccbb35202",
+  "name": "equity-fund-selected-option",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

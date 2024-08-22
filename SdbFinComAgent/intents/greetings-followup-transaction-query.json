@@ -1,0 +1,79 @@
+{
+  "id": "c6dfcac6-813e-46e1-9db3-4bc8fa5c096a",
+  "name": "greetings-followup-transaction-query",
+  "auto": true,
+  "contexts": [
+    "greetings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "invest-more-context",
+          "lifespan": 5
+        },
+        {
+          "name": "greetings-followup-transaction-query-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "25e26704-e017-40e6-b385-bfdca6f456d1",
+          "name": "dateperiod",
+          "required": true,
+          "dataType": "@sys.date-period",
+          "value": "$dateperiod",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9d2f363c-fd1e-4336-ba11-c40935f222a4",
+          "name": "phonenumber",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your registered mobile number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

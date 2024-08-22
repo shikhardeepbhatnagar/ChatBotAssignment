@@ -1,0 +1,52 @@
+{
+  "id": "1546424f-4b1c-4270-ab12-9d90a341ccff",
+  "name": "equity-fund-intent",
+  "auto": true,
+  "contexts": [
+    "fund-selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "equity-fund",
+      "affectedContexts": [
+        {
+          "name": "post-fund-selection",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cfbe0776-2a72-49b1-92ed-a430248e2258",
+          "name": "optionnumber",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "invokeEquityFundIntentEvent"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

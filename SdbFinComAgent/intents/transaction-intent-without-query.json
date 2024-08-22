@@ -1,0 +1,43 @@
+{
+  "id": "ce5e50e0-54e9-4f52-928a-4f93fdd80a32",
+  "name": "transaction-intent-without-query",
+  "auto": true,
+  "contexts": [
+    "transaction-without-query"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "invest-more-context",
+          "lifespan": 5
+        },
+        {
+          "name": "transaction-intent-without-query-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

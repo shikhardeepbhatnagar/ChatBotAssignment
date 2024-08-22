@@ -1,0 +1,102 @@
+{
+  "id": "0e8d32cd-ecd0-4e53-b61c-3831f54eec8d",
+  "name": "greetings-followup-transaction",
+  "auto": true,
+  "contexts": [
+    "greetings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "transaction-without-query",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7a38f2d3-5d25-482f-8754-20f2bd8ceef5",
+          "name": "greeting-menu",
+          "required": false,
+          "dataType": "@greeting-menu",
+          "value": "$greeting-menu",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0078c3dc-35f4-42f6-ae30-07439d37fd18",
+          "name": "phonenumber",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your registered mobile number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Please provide a time period:\n-Enter Dates",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "Current financial year",
+                      "text": "Current financial year"
+                    },
+                    {
+                      "text": "Last financial year",
+                      "callback_data": "Last financial year"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

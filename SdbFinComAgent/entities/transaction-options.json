@@ -1,0 +1,9 @@
+{
+  "id": "a7afc80c-effb-433d-a641-f03a9507b114",
+  "name": "transaction-options",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

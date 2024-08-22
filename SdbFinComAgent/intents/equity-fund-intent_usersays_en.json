@@ -1,0 +1,45 @@
+[
+  {
+    "id": "6fad67d6-badf-4522-8fc1-c05360c507df",
+    "data": [
+      {
+        "text": "I will go with equity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f80d07bd-95f7-4ec9-9d68-41cccb15696f",
+    "data": [
+      {
+        "text": "I choose equity ",
+        "userDefined": false
+      },
+      {
+        "text": "fund",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3d0a780-b908-45f3-bf9d-fef8c608af21",
+    "data": [
+      {
+        "text": "Equity",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

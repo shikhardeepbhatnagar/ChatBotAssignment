@@ -1,0 +1,135 @@
+[
+  {
+    "id": "e74eab72-be9a-4e3d-8f34-a3e7bee6e34b",
+    "data": [
+      {
+        "text": "transaction history ",
+        "userDefined": false
+      },
+      {
+        "text": "01/01/2023 - 31/12/2023",
+        "meta": "@sys.date-period",
+        "alias": "dateperiod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad566d95-3d38-4478-9e6d-f09190949db7",
+    "data": [
+      {
+        "text": "transaction history ",
+        "userDefined": false
+      },
+      {
+        "text": "from 01/01/2023 to 31/12/2023",
+        "meta": "@sys.date-period",
+        "alias": "dateperiod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3dd9a4be-9d3d-496a-9bc6-2af11bbcb4c3",
+    "data": [
+      {
+        "text": "transaction history of ",
+        "userDefined": false
+      },
+      {
+        "text": "last month",
+        "meta": "@sys.date-period",
+        "alias": "dateperiod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cfa7d7f9-930f-49f4-b412-25dc8b52d4e2",
+    "data": [
+      {
+        "text": "transaction history of ",
+        "userDefined": false
+      },
+      {
+        "text": "this month",
+        "meta": "@sys.date-period",
+        "alias": "dateperiod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fdc61b64-4f04-46ae-90bc-0136932d763d",
+    "data": [
+      {
+        "text": "Transaction history of ",
+        "userDefined": false
+      },
+      {
+        "text": "last financial year",
+        "meta": "@sys.date-period",
+        "alias": "dateperiod",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55f7d140-0038-43ef-82bf-b98e1e16448c",
+    "data": [
+      {
+        "text": "Transaction history of ",
+        "userDefined": false
+      },
+      {
+        "text": "this year",
+        "meta": "@sys.date-period",
+        "alias": "dateperiod",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8e2cdeb7-8407-425c-b20e-5c64afca0a8f",
+    "data": [
+      {
+        "text": "get me the transaction history of ",
+        "userDefined": false
+      },
+      {
+        "text": "last year",
+        "meta": "@sys.date-period",
+        "alias": "dateperiod",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

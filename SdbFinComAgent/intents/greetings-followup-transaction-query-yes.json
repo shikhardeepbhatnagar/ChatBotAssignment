@@ -1,0 +1,36 @@
+{
+  "id": "4a1ab086-62c8-424a-9cc8-7743ee75d81f",
+  "parentId": "c6dfcac6-813e-46e1-9db3-4bc8fa5c096a",
+  "rootParentId": "c6dfcac6-813e-46e1-9db3-4bc8fa5c096a",
+  "name": "greetings-followup-transaction-query-yes",
+  "auto": true,
+  "contexts": [
+    "greetings-followup-transaction-query-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "greetings-followup-transaction-query.greetings-followup-transaction-query-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

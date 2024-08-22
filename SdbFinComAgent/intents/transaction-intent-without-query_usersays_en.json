@@ -1,0 +1,41 @@
+[
+  {
+    "id": "78709d84-6446-4e71-a248-eeb5914b43c4",
+    "data": [
+      {
+        "text": "2023/01/01 - 2023/12/31",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a447af9d-b32d-441e-89bf-9d881c8c3501",
+    "data": [
+      {
+        "text": "Last financial year",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e8eab5fd-a2be-4add-8246-6f6ac3ca5827",
+    "data": [
+      {
+        "text": "Current financial year",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
